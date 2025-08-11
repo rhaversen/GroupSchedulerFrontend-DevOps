@@ -28,7 +28,7 @@ spec:
                         requests:
                             cpu: "250m"
                             memory: "200M"
-                    image: "rhaversen/group-scheduler-frontend:bed5dfe33e5c55ef3c6b647e982a57f50b48e5e9"
+                    image: "rhaversen/group-scheduler-frontend:e8164af18f72ea1133648e09d389a4b144c2bc31"
                     imagePullPolicy: Always
                     livenessProbe:
                         httpGet:
